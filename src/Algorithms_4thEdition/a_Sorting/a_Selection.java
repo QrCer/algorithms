@@ -35,6 +35,7 @@ public class a_Selection {
         int N = a.length;
         int min = 0;
         for (int i = 0; i < N - 1; i++) {
+            min = i;
             for (int j = i + 1; j < N; j++) {
                 if (a[min] > a[j]) {
                     min = j;
